@@ -41,11 +41,14 @@ const Experience: React.FC = () => {
       <ul>
         {experiences.map((experience, index) => (
           <li key={index}>
-            <p><b>{experience.title}</b></p>
+            <p>
+              <b>{experience.title}</b>
+            </p>
             <div className="experience-length">
               <p>{experience.company}</p>
               <p>
-                {experience.startMonth} {experience.startYear} - {experience.endMonth} {experience.endYear}
+                {experience.startMonth} {experience.startYear} -{" "}
+                {experience.endMonth} {experience.endYear}
               </p>
             </div>
           </li>

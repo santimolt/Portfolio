@@ -1,25 +1,25 @@
-section#experience{
-    margin-top: 3rem;
-    h3{
-        text-align: center;
-        margin-bottom: .5rem;
-    }
-    ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
+section#experience {
+  margin-top: 3rem;
+  h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 
-        li {
-            &:not(:last-child){
-                border-bottom: 1px solid var(--primary);
-            }
-            .experience-length{
-                display: flex;
-                justify-content: space-between;
-            }
-            padding-bottom: 1rem;
-            margin-bottom: .25rem;
-        }
+    li {
+      &:not(:last-child) {
+        border-bottom: 1px solid var(--primary);
+      }
+      .experience-length {
+        display: flex;
+        justify-content: space-between;
+      }
+      padding-bottom: 1rem;
+      margin-bottom: 0.25rem;
     }
+  }
 }

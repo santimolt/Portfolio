@@ -11,21 +11,22 @@
   font-style: normal;
 }
 
-h1{
+h1 {
   font-size: xxx-large;
-  font-weight:600;
+  font-weight: 600;
 }
 
-h2{
+h2 {
   font-size: xx-large;
   font-weight: 500;
 }
 
-h3,h4{
+h3,
+h4 {
   font-size: x-large;
 }
 
-b{
+b {
   font-weight: 600;
 }
 

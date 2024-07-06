@@ -10,12 +10,17 @@ import { hexToRgb } from "../helpers/hexToRgb.ts";
 import "./Navigation.css";
 
 const Navigation: React.FC = () => {
-
   const handleThemeChange = () => {
-    const randomPair = getRandomPair()
-    document.documentElement.style.setProperty('--primary-color', `${hexToRgb(randomPair[0]).toString()}`);
-    document.documentElement.style.setProperty('--background-color', `${hexToRgb(randomPair[1]).toString()}`);
-  }
+    const randomPair = getRandomPair();
+    document.documentElement.style.setProperty(
+      "--primary-color",
+      `${hexToRgb(randomPair[0]).toString()}`
+    );
+    document.documentElement.style.setProperty(
+      "--background-color",
+      `${hexToRgb(randomPair[1]).toString()}`
+    );
+  };
 
   return (
     <nav className="header-nav">
@@ -40,7 +45,7 @@ const Navigation: React.FC = () => {
         </li>
       </ul>
       <button className="theme-manager" onClick={handleThemeChange}>
-        Change theme <CircleHalf/>
+        Change theme <CircleHalf />
       </button>
     </nav>
   );

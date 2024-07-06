@@ -1,5 +1,6 @@
 import React from "react";
 import { calculateAge } from "../helpers/calculateAge";
+import Selfie from "../assets/selfie.jpg";
 import "./Header.css";
 
 const Header: React.FC = () => {
@@ -7,6 +8,7 @@ const Header: React.FC = () => {
 
   return (
     <header>
+      <img src={Selfie} alt="Santiago's selfie" />
       <h1>Santiago Moltedo</h1>
       <h2>Front-end developer and UX-UI designer</h2>
       <p>
