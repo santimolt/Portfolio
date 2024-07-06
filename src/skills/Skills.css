@@ -1,0 +1,29 @@
+section#skills{
+    h4{
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem 2rem;
+        
+        li {
+            flex: 0 0 200px;
+            padding: .25rem;
+            border-radius: 16px;
+            border: 1px solid var(--primary);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            transition: background 100ms;
+
+            &:hover{
+                background-color: var(--primary-hover);
+            }
+        }
+    }
+}

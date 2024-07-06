@@ -1,11 +1,18 @@
 import React from 'react';
+import GithubLogo from "../assets/github-logo.svg";
+import LinkedinLogo from "../assets/linkedin-logo.svg";
+import Mail from "../assets/envelope.svg";
+import "./Contact.css";
 
 const ContactFooter: React.FC = () => {
     return (
         <footer>
-            <a href="https://github.com">GitHub</a>
-            <a href="https://linkedin.com">LinkedIn</a>
-            <a href="mailto:example@mail.com">Mail</a>
+            {/* <img src={GithubLogo} alt=""/>
+            <a href="https://github.com/santimol">GitHub</a>
+            <img src={LinkedinLogo} alt=""/>
+            <a href="https://www.linkedin.com/in/santiago-moltedo-a731ab163/">LinkedIn</a>
+            <img src={Mail} alt=""/>
+            <a href="mailto:santimolt@gmail.com">Mail</a> */}
         </footer>
     );
 };

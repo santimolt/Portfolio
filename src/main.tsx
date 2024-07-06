@@ -5,11 +5,13 @@ import Header from './header/Header.tsx'
 import Experience from './experience/Experience.tsx'
 import Skills from './skills/Skills.tsx'
 import ContactFooter from './contact/Contact.tsx'
+import Navigation from './navigation/Navigation.tsx'
 
 import './main.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+        <Navigation/>
     <MainContainer>
         <Header />
         <Experience />

@@ -1,0 +1,21 @@
+section#experience{
+    h3{
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        li {
+            &:not(:last-child){
+                border-bottom: 1px solid var(--primary);
+            }
+            .experience-length{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
