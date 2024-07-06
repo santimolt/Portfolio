@@ -16,7 +16,7 @@ const Skills: React.FC = () => {
     "Figma",
     "Git",
     "Github",
-    "Agile metrologies",
+    "Agile methodologies",
     "Accessibility",
   ];
   return (

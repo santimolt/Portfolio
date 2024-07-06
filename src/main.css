@@ -3,21 +3,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  fill: var(--primary);
+  color: var(--primary);
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+  font-size: xxx-large;
+  font-weight:600;
+}
+
+h2{
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+h3,h4{
+  font-size: x-large;
+}
+
+b{
+  font-weight: 600;
 }
 
 :root {
   --primary: rgb(var(--primary-color));
   --background: rgb(var(--background-color));
-  --primary-color: 14, 14, 14;
-  --background-color: 254, 254, 254;
+  /* --primary-color: 34, 40, 49;
+  --background-color: 238, 238, 238; */
+
+  --background-color: 34, 40, 49;
+  --primary-color: 238, 238, 238;
 
   --primary-hover: rgba(var(--primary-color), 0.1);
+
   background-color: var(--background);
   color: var(--primary);
-  *,
-  *::before,
-  *::after {
-    fill: var(--primary) !important;
-    color: var(--primary) !important;
-  }
 }

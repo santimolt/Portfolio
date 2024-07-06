@@ -1,16 +1,18 @@
 section#skills{
+    margin-top: 2rem;
     h4{
         text-align: center;
+        margin-bottom: 1rem;
     }
     ul{
         list-style: none;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: .5rem 2rem;
+        gap: 1rem 2rem;
         
         li {
-            flex: 0 0 200px;
+            flex: 0 0 30ch;
             padding: .25rem;
             border-radius: 16px;
             border: 1px solid var(--primary);
@@ -19,7 +21,7 @@ section#skills{
             justify-content: center;
             align-items: center;
 
-            transition: background 100ms;
+            transition: background-color 100ms;
 
             &:hover{
                 background-color: var(--primary-hover);

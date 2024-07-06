@@ -1,6 +1,8 @@
 section#experience{
+    margin-top: 3rem;
     h3{
         text-align: center;
+        margin-bottom: .5rem;
     }
     ul{
         list-style: none;
@@ -16,6 +18,8 @@ section#experience{
                 display: flex;
                 justify-content: space-between;
             }
+            padding-bottom: 1rem;
+            margin-bottom: .25rem;
         }
     }
 }
