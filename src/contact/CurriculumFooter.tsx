@@ -1,7 +1,7 @@
 import React from "react";
-import "./Contact.css";
+import "./Curriculum.css";
 
-const ContactFooter: React.FC = () => {
+const CurriculumFooter: React.FC = () => {
   return (
     <footer>
       {/* <img src={GithubLogo} alt=""/>
@@ -10,8 +10,11 @@ const ContactFooter: React.FC = () => {
             <a href="https://www.linkedin.com/in/santiago-moltedo-a731ab163/">LinkedIn</a>
             <img src={Mail} alt=""/>
             <a href="mailto:santimolt@gmail.com">Mail</a> */}
+
+            {/* <p>Need my CV?</p>
+            <a href="">Download it here!</a> */}
     </footer>
   );
 };
 
-export default ContactFooter;
+export default CurriculumFooter;

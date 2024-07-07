@@ -15,7 +15,9 @@ header {
     display: block;
     height: max(20svh, 12rem);
     border-radius: 50%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+
+    filter: drop-shadow(0 0 .25rem var(--primary));
   }
   p {
     margin-bottom: 1rem;
