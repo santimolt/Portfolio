@@ -5,7 +5,7 @@ import Header from "./header/Header.tsx";
 import Experience from "./experience/Experience.tsx";
 import Skills from "./skills/Skills.tsx";
 import Navigation from "./navigation/Navigation.tsx";
-// import CurriculumFooter from "./contact/CurriculumFooter.tsx";
+import CurriculumFooter from "./contact/CurriculumFooter.tsx";
 
 import "./main.css";
 
@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Experience />
       <Skills />
       {/* <Projects /> */}
-      {/* <CurriculumFooter/> */}
+      <CurriculumFooter />
     </MainContainer>
   </React.StrictMode>
 );

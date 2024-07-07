@@ -1,4 +1,6 @@
 import React from "react";
+import { BaseUrl } from "../constants";
+import Perhaps from "../assets/perhaps.jpg";
 import "./Curriculum.css";
 
 const CurriculumFooter: React.FC = () => {
@@ -11,8 +13,14 @@ const CurriculumFooter: React.FC = () => {
             <img src={Mail} alt=""/>
             <a href="mailto:santimolt@gmail.com">Mail</a> */}
 
-            {/* <p>Need my CV?</p>
-            <a href="">Download it here!</a> */}
+      <h4>Need my CV?</h4>
+      <a
+        href={`${BaseUrl}Curriculum.pdf`}
+        target="_blank"
+        title="Download it here!"
+      >
+        <img src={Perhaps} alt="Perhaps meme" />
+      </a>
     </footer>
   );
 };
