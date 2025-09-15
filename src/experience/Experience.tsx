@@ -11,12 +11,20 @@ const Experience: React.FC = () => {
     endMonth: string;
   }[] = [
     {
+      title: "Front End developer",
+      company: "Gire S.A.",
+      startMonth: "Jun",
+      startYear: 2025,
+      endYear: "",
+      endMonth: "now",
+    },
+    {
       title: "UX-UI Designer and Front End developer",
       company: "Gire S.A.",
       startMonth: "Jan",
       startYear: 2023,
-      endYear: "",
-      endMonth: "now",
+      endYear: "2025",
+      endMonth: "Jun",
     },
     {
       title: "Front End developer",

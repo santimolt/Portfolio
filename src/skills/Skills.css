@@ -6,13 +6,12 @@ section#skills {
   }
   ul {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* dos columnas iguales */
     gap: 1rem 2rem;
 
     li {
-      flex: 0 0 30ch;
+      min-height: 3rem;
       padding: 0.25rem;
       border-radius: 16px;
       border: 1px solid var(--primary);
@@ -20,6 +19,8 @@ section#skills {
       display: flex;
       justify-content: center;
       align-items: center;
+      /* flex-direction: column; */
+      gap: 0.5rem;
 
       transition: background-color 100ms;
 

@@ -17,8 +17,9 @@ const CurriculumFooter: React.FC = () => {
       <a
         href={`${BaseUrl}Curriculum.pdf`}
         target="_blank"
-        title="Download it here!"
+        title="Download the CV"
       >
+        Download it here!
         <img src={Perhaps} alt="Perhaps meme" />
       </a>
     </footer>
