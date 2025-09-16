@@ -35,7 +35,7 @@ const Navigation: React.FC = () => {
     <nav className="header-nav">
       <ul>
         <li>
-          <a href="https://github.com/santimol" title={t("navbar.githubAlt")}>
+          <a href="https://github.com/santimolt" title={t("navbar.githubAlt")}>
             <GithubLogo />
           </a>
         </li>
