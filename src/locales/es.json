@@ -1,0 +1,63 @@
+{
+  "navbar": {
+    "githubAlt": "Mí página de GitHub",
+    "linkedInAlt": "Mí página de LinkedIn",
+    "emailMeAlt": "Enviame un mail",
+    "themeButtonLabel": "Cambiar tema"
+  },
+  "hero": {
+    "title": "Desarrollador Front End y diseñador UXUI",
+    "introduction": "Hola! Tengo {{age}} años, soy estudiante, desarrollador y diseñador. Estoy estudiando la carrera de ingeniería en sistemas en la UTN frba, pero estoy siempre predispuesto para estudiar temas fuera de mi carrera universitaria.",
+    "currentlyWorkingOn": "Actualmente desarrollo en React, hago mantenimiento de paquetes de NPM, sistemas de diseño y proyectos empresariales como maquetador y front. Busco siempre mejorar la experiencia de usuairo y dar valor agregado a todos los productos"
+  },
+  "experience": {
+    "title": "Experiencias",
+    "experiences": {
+      "item4": {
+        "title": "Desarrollador Front End",
+        "company": "Gire S.A.",
+        "startMonth": "Junio",
+        "startYear": 2025,
+        "endMonth": "Actualidad",
+        "endYear": ""
+      },
+      "item3": {
+        "title": "Maquetador",
+        "company": "Gire S.A.",
+        "startMonth": "Enero",
+        "startYear": 2023,
+        "endMonth": "Junio",
+        "endYear": 2025
+      },
+      "item2": {
+        "title": "Desarrollador Front End",
+        "company": "Gire S.A.",
+        "startMonth": "Mayo",
+        "startYear": 2022,
+        "endMonth": "Deciembre",
+        "endYear": 2022
+      },
+      "item1": {
+        "title": "Pasante desarrollador Back End",
+        "company": "Gire S.A.",
+        "startMonth": "Junio",
+        "startYear": 2021,
+        "endMonth": "Deciembre",
+        "endYear": 2021
+      }
+    }
+  },
+  "skills": {
+    "title": "Conocimientos en:",
+    "items": {
+      "agile": "Metodologías ágiles",
+      "accessibility": "Accesibilidad",
+      "more": "Mucho más!"
+    }
+  },
+  "footer": {
+    "title": "Te interesa mi CV?",
+    "button": "Descargalo acá!",
+    "buttonAlt": "Descargá mi CV"
+  }
+}

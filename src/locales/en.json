@@ -1,0 +1,62 @@
+{
+  "navbar": {
+    "githubAlt": "My Github page",
+    "linkedInAlt": "My LinkedIn page",
+    "emailMeAlt": "Email me",
+    "themeButtonLabel": "Change theme"
+  },
+  "hero": {
+    "title": "Front-end developer and UX-UI designer",
+    "introduction": "Hi! I'm a {{age}} year old student, developer and designer. I'm currently studying for my systems engineering degree, but always open to keep learning in any topic.",
+    "currentlyWorkingOn": "I'm currently working with React, Figma and specially familiarized with Storybook, developing and maintaining NPM packages and Design Systems. I specialize in user experience to add value to all products"
+  },
+  "experience": {
+    "title": "Experience",
+    "experiences": {
+      "item4": {
+        "title": "Front End developer",
+        "company": "Gire S.A.",
+        "startMonth": "June",
+        "startYear": "2025",
+        "endMonth": "present"
+      },
+      "item3": {
+        "title": "Layout artist",
+        "company": "Gire S.A.",
+        "startMonth": "January",
+        "startYear": "2023",
+        "endMonth": "June",
+        "endYear": "2025"
+      },
+      "item2": {
+        "title": "Front End developer",
+        "company": "Gire S.A.",
+        "startMonth": "May",
+        "startYear": "2022",
+        "endMonth": "December",
+        "endYear": "2022"
+      },
+      "item1": {
+        "title": "Back End developer intern",
+        "company": "Gire S.A.",
+        "startMonth": "June",
+        "startYear": "2021",
+        "endMonth": "December",
+        "endYear": "2021"
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "items": {
+      "agile": "Agile methodologies",
+      "accessibility": "Accessibility",
+      "more": "Much more!"
+    }
+  },
+  "footer": {
+    "title": "Need my CV?",
+    "button": "Download it here!",
+    "buttonAlt": "Download my CV"
+  }
+}

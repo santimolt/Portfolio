@@ -16,6 +16,7 @@ import {
   IconDefinition,
 } from "@fortawesome/free-brands-svg-icons";
 import { faArrowsSpin } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 type skill = {
   label: string;
@@ -35,6 +36,8 @@ const customTSIcon: IconDefinition = {
 };
 
 const Skills: React.FC = () => {
+  const { t } = useTranslation();
+
   const skills: skill[] = [
     { label: "React", icon: <FontAwesomeIcon icon={faReact} /> },
     { label: "TypeScript", icon: <FontAwesomeIcon icon={customTSIcon} /> },
@@ -48,17 +51,17 @@ const Skills: React.FC = () => {
     { label: "Git", icon: <FontAwesomeIcon icon={faGit} /> },
     { label: "Github", icon: <FontAwesomeIcon icon={faGithub} /> },
     {
-      label: "Agile methodologies",
+      label: t("skills.items.agile"),
       icon: <FontAwesomeIcon icon={faArrowsSpin} />,
     },
     {
-      label: "Accessibility",
+      label: t("skills.items.accessibility"),
       icon: <FontAwesomeIcon icon={faAccessibleIcon} />,
     },
   ];
   return (
     <section id="skills">
-      <h4>Skills</h4>
+      <h4>{t("skills.title")}</h4>
       <ul>
         {skills.map((skill: skill, index: number) => (
           <li key={index}>
@@ -66,7 +69,7 @@ const Skills: React.FC = () => {
             <span>{skill.label}</span>
           </li>
         ))}
-        <li>Much more!</li>
+        <li>{t("skills.items.more")}</li>
       </ul>
     </section>
   );
