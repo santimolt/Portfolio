@@ -11,7 +11,7 @@ const CurriculumFooter: React.FC = () => {
     <footer>
       <h4>{t("footer.title")}</h4>
       <a
-        href={`${BaseUrl}Curriculum.pdf`}
+        href={`${BaseUrl}MoltedoSantiago-CV.pdf`}
         target="_blank"
         title={t("footer.buttonAlt")}
       >
